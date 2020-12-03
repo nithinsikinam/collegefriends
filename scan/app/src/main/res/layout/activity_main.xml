@@ -8,15 +8,21 @@
 
   <Button
       android:id="@+id/scanBtn"
-      android:layout_centerInParent="true"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginStart="149dp"
+      android:layout_marginLeft="149dp"
+
+
+      android:layout_toEndOf="@+id/button"
+      android:layout_toRightOf="@+id/button"
       android:text="Scan now"
-      android:textSize="30dp"
+      android:textSize="30dp" />
 
-
-
-
-      />
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Button" />
 
 </RelativeLayout>
