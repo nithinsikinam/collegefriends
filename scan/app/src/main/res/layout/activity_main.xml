@@ -23,6 +23,10 @@
       android:id="@+id/button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+<<<<<<< HEAD
       android:text="Button" />nnnnnnn
+=======
+      android:text="Button" />nnnnnnnntttttt
+>>>>>>> origin/main
 
 </RelativeLayout>
